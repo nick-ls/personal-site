@@ -1,50 +1,71 @@
+
 :root {
+	/* 
+	 * hand-selected colors; I tried to fit a
+	 * terminal aesthetic. I think the chromas
+	 * of the colors are all roughly the same,
+	 * so try to avoid using any one of them as
+	 * the background for any other color for
+	 * accessibility reasons.
+	 */
 	--red: oklch(71.46% 0.1345 20.951);
 	--orange: oklch(80.431% 0.1042 59.82);
 	--yellow: oklch(88.376% 0.12354 100.464);
-	--green: oklch(85.472% 0.1575 135.106);
+	--green: oklch(84.33% 0.15626 135.02);
 	--cyan: oklch(84.373% 0.10317 181.501);
 	--blue: oklch(66.617% 0.14684 286.22);
 	--purple: oklch(73.712% 0.17479 322.844);
+
+	--darker-bg: #282b33;
+	--lighter-bg: #313641;
 }
+
 html {
 	display: flex;
 	width: 100%;
 	height: 100%;
 	justify-content: center;
-	background-color: #282b33;
+	background-color: var(--darker-bg);
 	font-family: monospace;
 	color: var(--yellow);
 }
 
 body {
-	max-width: 800px;
+	max-width: 700px;
 	min-width: 500px;
-	background-color: #313641;
-	padding: 2rem;
+	background-color: var(--lighter-bg);
+	padding: 3rem;
+	font-size: 1.3rem;
+	line-height: 1.4;
 }
-.a, .b,.c,.d,.e,.f,.g {
-	width: 100px;
-	height: 100px;
+
+code {
+	background-color: var(--darker-bg);
+	padding: 0.2rem 0.4rem;
+	border-radius: 5px;
 }
-.a {
-	background-color: var(--red);
+
+hr {
+	text-align: center;
+	border: 0;
 }
-.b {
-	background-color: var(--orange);
+
+hr:before {
+	content: '[--------';
 }
-.c {
-	background-color: var(--yellow);
+
+hr:after {
+	content: "--------]";
 }
-.d {
-	background-color: var(--green);
+
+a {
+	color: var(--cyan);
+	font-weight: bold;
 }
-.e {
-	background-color: var(--cyan);
+a:visited {
+	color: var(--purple);
 }
-.f {
-	background-color: var(--blue);
-}
-.g {
-	background-color: var(--purple);
+a:hover {
+	color: var(--orange);
+	text-decoration: none;
 }
