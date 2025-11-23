@@ -1,0 +1,50 @@
+:root {
+	--red: oklch(71.46% 0.1345 20.951);
+	--orange: oklch(80.431% 0.1042 59.82);
+	--yellow: oklch(88.376% 0.12354 100.464);
+	--green: oklch(85.472% 0.1575 135.106);
+	--cyan: oklch(84.373% 0.10317 181.501);
+	--blue: oklch(66.617% 0.14684 286.22);
+	--purple: oklch(73.712% 0.17479 322.844);
+}
+html {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	background-color: #282b33;
+	font-family: monospace;
+	color: var(--yellow);
+}
+
+body {
+	max-width: 800px;
+	min-width: 500px;
+	background-color: #313641;
+	padding: 2rem;
+}
+.a, .b,.c,.d,.e,.f,.g {
+	width: 100px;
+	height: 100px;
+}
+.a {
+	background-color: var(--red);
+}
+.b {
+	background-color: var(--orange);
+}
+.c {
+	background-color: var(--yellow);
+}
+.d {
+	background-color: var(--green);
+}
+.e {
+	background-color: var(--cyan);
+}
+.f {
+	background-color: var(--blue);
+}
+.g {
+	background-color: var(--purple);
+}
