@@ -46,9 +46,8 @@ the new board when I can.
 
 <img class="preview right" src="./media/raven-updated.svg" style="width: 200px;"/> 
 
-I made some pixel art of a raven
-sitting on top of a computer and it won a competition. I later
-updated it to fix some of the shading. I'm chuffed to bits with how it turned out!
+I made some pixel art of a raven sitting on top of a computer and it won a competition. I later
+updated it to fix some of the shading. I'm quite pleased with how it turned out!
 
 ### [CSE 167 (Computer Graphics)](https://cseweb.ucsd.edu/~tzli/cse167/fa2025/)
 I 3d modeled and textured a raven using Blender, then rendered it using my own OpenGL rasterizer. It was featured on the course website and in-class as an example for future students taking the class.
