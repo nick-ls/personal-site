@@ -20,6 +20,19 @@
 	--lighter-bg: #313641;
 }
 
+@media (max-width: 600px) {
+	html > body {
+		min-width: 200px;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		font-size: 1.1rem;
+		box-sizing: border-box;
+	}
+	img {
+		
+	}
+}
+
 html {
 	display: flex;
 	width: 100%;

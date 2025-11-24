@@ -10,10 +10,10 @@ I'm Nick, nice to meet you!
 
 This site is ⚠️under construction⚠️ so don't expect any finished content yet!
 
-<div style="padding-top: 5rem; position: relative">
+<div style="padding-top: 4vw; position: relative">
 <img src="media/construction.gif" style="image-rendering: pixelated; width: 100%;">
-<img src="media/under.gif" style="image-rendering: pixelated; position: absolute;left:80px;height:250px; width: 180px; bottom:0">
-<img src="media/sign.gif" style="image-rendering: pixelated;  position: absolute;right:0px;height:120px; width: 190px; bottom:20px">
+<img src="media/under.gif" style="image-rendering: pixelated; position: absolute;left:calc(min(90px,8vw));height: calc(min(25vw, 250px)); width: calc(min(25vw, 200px)); bottom:0">
+<img src="media/sign.gif" style="image-rendering: pixelated;  position: absolute;right:0px;height:calc(min(120px,17vw)); width: calc(min(20vw,200px)); bottom:1vw">
 </div>
 
 ---
