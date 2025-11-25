@@ -14,7 +14,7 @@ I'm Nick, a Computer Science Master's student at [UC San Diego](https://ucsd.edu
 
 I'm interested in security, automation, software+game development, woodworking, and birds 🐦✨
 
-You can email me <button class="bot-button">if you're not a bot (click to reveal)</button>
+<p style="clear:both">You can email me if you're not a bot: <button class="bot-button">[by clicking here]</button></style>
 
 ---
 
@@ -86,8 +86,7 @@ document.addEventListener("click", async (e) => {
 			email = "there was a network error :(";
 		}
 	}
-	
-	e.target.outerHTML = ` at <a href="mailto:${email}">${email}</a>`;
+	e.target.outerHTML = `<a href="mailto:${email}">${email}</a>`;
 });
 </script>
 

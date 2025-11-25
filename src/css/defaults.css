@@ -151,13 +151,13 @@ button {
 	font-size: 1rem;
 	font-family: inherit;
 	font-weight: bold;
-	border: 2px solid var(--red);
+	border: none;
 	background-color: transparent;
 	color: var(--red);
 	cursor: pointer;
-	box-shadow: 3px 3px 8px 0 #222222BB;
 }
 button:hover {
 	color: var(--orange);
 	border-color: var(--orange);
+	text-decoration: underline;
 }
