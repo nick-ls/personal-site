@@ -3,12 +3,21 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="css/fonts.css">
-		<link rel="stylesheet" type="text/css" href="css/defaults.css">
+		<link rel="stylesheet" type="text/css" href="/css/syntax.css">
+		<link rel="stylesheet" type="text/css" href="/css/fonts.css">
+		<link rel="stylesheet" type="text/css" href="/css/defaults.css">
 		<link rel="icon" href="{{ icon }}">
 		<title>{{ title }}</title>
 	</head>
 	<body>
+		<h1 id="backlink"><a>../</a></h1>
 		{{ content }}
+		<script>
+			if (document.location.pathname !== "/") {
+				const bl = document.querySelector("#backlink");
+				bl.style.display = "block";
+				bl.addEventListener("click", () => window.history.back())
+			}
+		</script>
 	</body>
 </html>

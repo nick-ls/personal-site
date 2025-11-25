@@ -8,3 +8,13 @@
 	src: url("../fonts/RobotoMono-Italic.ttf");
 	font-style: italic;
 }
+@font-face {
+	font-family: Merriweather;
+	src: url("../fonts/MerriweatherSans.ttf");
+	font-style: normal;
+}
+@font-face {
+	font-family: Merriweather;
+	src: url("../fonts/MerriweatherSans-Italic.ttf");
+	font-style: italic;
+}
