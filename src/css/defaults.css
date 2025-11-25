@@ -25,12 +25,13 @@
 		min-width: 200px;
 		margin-left: 0;
 		margin-right: 0;
-		font-size: 1.1rem;
+		font-size: 0.95rem;
 		box-sizing: border-box;
-		padding: 0.5rem;
+		padding: 1rem;
 	}
 	img {
 		float: unset !important;
+		margin: 0 !important;
 	}
 }
 html {
@@ -51,7 +52,7 @@ body {
 	background-color: var(--lighter-bg);
 	padding: 3rem;
 	padding-top: 1rem;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	line-height: 1.35;
 	height: fit-content;
 	border-radius: 2px;
@@ -67,6 +68,8 @@ code {
 hr {
 	text-align: center;
 	border: 0;
+	margin-top: 1rlh;
+	margin-bottom: 1rlh;
 }
 
 hr:before {
@@ -78,12 +81,14 @@ hr:after {
 }
 
 a {
+	transition: color 0.1s;
 	color: var(--yellow);
 	font-weight: bold;
+	text-decoration: none;
 }
 a:hover {
 	color: var(--red);
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 img {
@@ -119,7 +124,7 @@ h1 > a {
 }
 
 img.preview {
-	max-width: 300px;
+	max-width: calc(min(100%, 300px));
 	float: left;
 	margin-right: 1.5rem;
 }
@@ -146,7 +151,7 @@ button {
 	font-size: 1rem;
 	font-family: inherit;
 	font-weight: bold;
-	border: 3px solid var(--red);
+	border: 2px solid var(--red);
 	background-color: transparent;
 	color: var(--red);
 	cursor: pointer;

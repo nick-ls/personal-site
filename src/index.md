@@ -16,11 +16,14 @@ I'm interested in security, automation, software+game development, woodworking, 
 
 You can email me <button class="bot-button">if you're not a bot (click to reveal)</button>
 
+---
+
+
 ## OSINT me!
 Here are some things you might stumble across by googling my name and some keywords:
 
 ### [Wrong Cave!](https://cse125.ucsd.edu/2024/cse125g1/)
-[<img class="preview" src="./media/wrong-cave.png" />](https://cse125.ucsd.edu/2024/cse125g1/)
+<div><a href="https://cse125.ucsd.edu/2024/cse125g1/"><img class="preview" src="./media/wrong-cave.png"/></a></div>
 
 <span style="color: var(--red); font-weight: bold;">Wrong Cave!</span> is a distributed real-time 3D multiplayer game
 I developed with a team of 7 over the course of 10 weeks as part of 
@@ -34,6 +37,8 @@ I've been a TA for 4 classes so far:
 - [CSE 127: Intro to Computer Security (Winter 2025)](https://cseweb.ucsd.edu/classes/wi25/cse127-a/)
 
 ### [ACM Cyber at UC San Diego](https://cyber.acmucsd.com/)
+<img class="preview right" src="./media/cyber.svg" style="shape-outside: url('./media/cyber.svg'); shape-margin: 1rlh;">
+
 I was the president of the largest cybersecurity student organization at UCSD for the 2024-2025 academic year 😎. For the two years before that,
 I was a workshop host and ran technical events, managed event logistics, and engaged students through presentations and live demos. From 
 the beginning of my time at UC San Diego in 2021, I developed challenges for [San Diego CTF (SDCTF)](https://sdc.tf), San Diego's largest
@@ -50,15 +55,16 @@ I made some pixel art of a raven sitting on top of a computer and it won a compe
 updated it to fix some of the shading. I'm quite pleased with how it turned out!
 
 ### [CSE 167 (Computer Graphics)](https://cseweb.ucsd.edu/~tzli/cse167/fa2025/)
+<img class="preview" src="./media/raven-167.png">
+
 I 3d modeled and textured a raven using Blender, then rendered it using my own OpenGL rasterizer. It was featured on the course website and in-class as an example for future students taking the class.
 
-![](./media/raven-167.png)
-
+---
 
 
 This site is still a work-in-progress! I'll incrementally be adding content when I find the time. Thanks for reading :>
 
-
+<div style="display:flex;">
 <div style="background: var(--red); width: 50px; height: 50px"></div>
 <div style="background: var(--orange); width: 50px; height: 50px"></div>
 <div style="background: var(--yellow); width: 50px; height: 50px"></div>
@@ -66,7 +72,7 @@ This site is still a work-in-progress! I'll incrementally be adding content when
 <div style="background: var(--cyan); width: 50px; height: 50px"></div>
 <div style="background: var(--blue); width: 50px; height: 50px"></div>
 <div style="background: var(--purple); width: 50px; height: 50px"></div>
-
+</div>
 <script>
 // I'd like to see ChatGPT try to click a button (challenge impossible 😏)
 document.addEventListener("click", async (e) => {
