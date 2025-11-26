@@ -39,7 +39,7 @@ This project was simultaneously one of the most challenging and immensely fun ex
 
 ## UCSD CSE Teaching Assistant Positions
 I've been a TA for 4 classes so far. For each class, I've taken some effort to improve the course tooling wherever possible.
-You can read about [what I've done](./rants/course-tools) for each class.
+<!--You can read about [what I've done](./rants/course-tools) for each class.-->
 - [CSE 120: Operating Systems (Fall 2025)](https://cseweb.ucsd.edu/classes/fa25/cse120-a/)
 - [CSE 29: Systems Programming & Software Tools (Summer Session I 2025)](https://ucsd-cse29.github.io/ss1-25/)
 - [CSE 120: Operating Systems (Spring 2025)](https://cseweb.ucsd.edu/classes/sp25/cse120-a/)
